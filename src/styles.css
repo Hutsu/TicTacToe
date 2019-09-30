@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+td {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 70px;
+}
+
+td:hover {
+  background-color: rgb(228, 246, 247);
+}
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.endgame {
+  display: none;
+  width: 200;
+  top: 100px;
+  background-color: aquamarine;
+  position: absolute;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
